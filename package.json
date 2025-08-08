@@ -1,0 +1,17 @@
+{
+  "name": "squiz",
+  "version": "1.0.0",
+  "main": "src/main.js",
+  "scripts": {
+    "format": "prettier --write '**/*.{js,css,html}'",
+    "lint:html": "htmlhint \"src/**/*.html\""
+  },
+  "keywords": [],
+  "author": "Vlad Dukhovnik <vdukhovnik1@gmail.com>",
+  "license": "ISC",
+  "description": "Frontend challenge project with Prettier formatting",
+  "devDependencies": {
+    "htmlhint": "^1.6.3",
+    "prettier": "^3.6.2"
+  }
+}

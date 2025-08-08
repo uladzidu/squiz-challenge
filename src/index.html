@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Frontend Challenge</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <aside class="sidebar">
+        <h2>Filters</h2>
+        <label for="country-select">Country</label>
+        <select class="filter-control" id="country-select">
+          <option value="">All Countries</option>
+        </select>
+
+        <label for="industry-select">Industry</label>
+        <select class="filter-control" id="industry-select">
+          <option value="">All Industries</option>
+        </select>
+
+        <h2>Sort</h2>
+        <label for="sort-by">Sort By</label>
+        <select class="filter-control" id="sort-by">
+          <option value="name">Name</option>
+          <option value="numberOfEmployees">Number of Employees</option>
+        </select>
+
+        <label for="sort-direction">Direction</label>
+        <select class="filter-control" id="sort-direction">
+          <option value="asc">Ascending</option>
+          <option value="desc">Descending</option>
+        </select>
+      </aside>
+
+      <main class="content">
+        <h2>Companies</h2>
+        <ul id="company-list" aria-live="polite"></ul>
+      </main>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
