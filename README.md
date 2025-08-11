@@ -1,15 +1,33 @@
 # Frontend Challenge: Company Filter and Sort App
-This is a simple web application that fetches a list of companies from an API and allows users to filter them by country and industry, as well as sort by name or number of employees.
-The app is built with plain HTML, SCSS, and JavaScript, demonstrating skills in DOM manipulation, asynchronous data fetching, and UI accessibility.
 
-## How to Open the Project Locally
+## Overview
 
-This project uses plain HTML, CSS (SCSS compiled to CSS), and JavaScript.
+This is a simple web application that fetches a list of companies from an API and allows users to:
 
-### Open Directly in Browser
+- Filter companies by country and industry
+- Sort companies by name or **number of employees
 
-1. Navigate to the `src` folder.
-2. Open `index.html` in your web browser by double-clicking the file or right-clicking and selecting your browser.
+## Technologies Used
 
+- HTML5
+- SCSS (compiled to CSS)
+- Vanilla JavaScript (ES6+)
+- Vite (for local development server and build)
 
+---
+
+## Getting Started
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/uladzidu/squiz-challenge.git
+
+# 2. Install dependencies
+npm install
+
+# 3. Start the development server
+npm run dev
+
+# 4. Open in your browser
+http://localhost:5173
 
