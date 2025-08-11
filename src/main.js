@@ -1,3 +1,5 @@
+import './style.scss';
+
 (function () {
   const API_URL = 'https://dujour.squiz.cloud/developer-challenge/data';
 
